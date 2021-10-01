@@ -234,13 +234,13 @@ header label{
 }
 
 .newsletter h3{
-    color:#fff;
+    color:#333;
     font-size: 3rem;
     text-transform: uppercase;
 }
 
 .newsletter p{
-    color:#fff;
+    color:#333;
     font-size: 1.6rem;
     margin:2rem auto;
     width:70rem;
@@ -249,7 +249,7 @@ header label{
 .newsletter form{
     display: flex;
     max-width: 70rem;
-    border:.2rem solid #fff;
+    border:.2rem solid #333;
     padding:.5rem;
     border-radius: 5rem;
     margin:2rem auto;
@@ -267,11 +267,12 @@ header label{
 }
 
 .newsletter form input[type="email"]::placeholder{
-    color:#eee;
+    color:#333;
     text-transform: capitalize;
 }
 
 .newsletter form input[type="submit"]{
+    color: #333;
     background:#fff;
     width:20rem;
     font-size: 1.7rem;
@@ -527,8 +528,8 @@ header label{
     font-size: 2rem;
     font-weight: normal;
     letter-spacing: .1rem;
-    color:#fff;
-    border-top: .1rem solid #fff5;
+    color:rgb(68, 68, 68);
+    border-top: .1rem solid rgb(60, 60, 60);
     padding:2.5rem 1rem;
     text-align: center;
 }
@@ -623,6 +624,7 @@ header label{
     }
 
     .newsletter p{
+        color: #333;
         width:auto;
     }
 
